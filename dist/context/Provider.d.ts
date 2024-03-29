@@ -40,5 +40,5 @@ export declare const GlobalProvider: ({ children, currentUser, replyTop, customI
     onEditAction?: Function | undefined;
     currentData?: Function | undefined;
     advancedInput?: boolean | undefined;
-}) => React.JSX.Element;
+}) => JSX.Element;
 export default GlobalProvider;

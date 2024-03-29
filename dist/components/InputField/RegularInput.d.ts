@@ -1,4 +1,4 @@
-import React from 'react';
+/// <reference types="react" />
 import './InputField.scss';
 interface RegularInputProps {
     formStyle?: object;
@@ -14,5 +14,5 @@ interface RegularInputProps {
     text: string;
     setText: Function;
 }
-declare const RegularInput: ({ formStyle, imgDiv, imgStyle, customImg, mode, inputStyle, cancelBtnStyle, comId, submitBtnStyle, handleSubmit, text, setText }: RegularInputProps) => React.JSX.Element;
+declare const RegularInput: ({ formStyle, imgDiv, imgStyle, customImg, mode, inputStyle, cancelBtnStyle, comId, submitBtnStyle, handleSubmit, text, setText }: RegularInputProps) => JSX.Element;
 export default RegularInput;

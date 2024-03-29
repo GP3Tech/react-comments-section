@@ -1,5 +1,5 @@
+/// <reference types="react" />
 import './CommentSection.css';
-import React from 'react';
 interface CommentSectionProps {
     overlayStyle?: object;
     logIn: {
@@ -10,5 +10,5 @@ interface CommentSectionProps {
     titleStyle?: object;
     customNoComment?: Function;
 }
-declare const CommentSection: ({ overlayStyle, logIn, hrStyle, titleStyle, customNoComment }: CommentSectionProps) => React.JSX.Element;
+declare const CommentSection: ({ overlayStyle, logIn, hrStyle, titleStyle, customNoComment }: CommentSectionProps) => JSX.Element;
 export default CommentSection;

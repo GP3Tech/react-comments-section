@@ -1,4 +1,4 @@
-import * as React from 'react';
+/// <reference types="react" />
 import './Index.scss';
 interface CommentSectionProps {
     currentUser: {
@@ -48,5 +48,5 @@ interface CommentSectionProps {
         }> | undefined;
     }>;
 }
-export declare const CommentSection: ({ currentUser, customImg, inputStyle, formStyle, submitBtnStyle, cancelBtnStyle, overlayStyle, replyInputStyle, logIn, imgStyle, replyTop, commentsCount, commentData, hrStyle, titleStyle, removeEmoji, onSubmitAction, onDeleteAction, onReplyAction, onEditAction, customNoComment, currentData, advancedInput }: CommentSectionProps) => React.JSX.Element;
+export declare const CommentSection: ({ currentUser, customImg, inputStyle, formStyle, submitBtnStyle, cancelBtnStyle, overlayStyle, replyInputStyle, logIn, imgStyle, replyTop, commentsCount, commentData, hrStyle, titleStyle, removeEmoji, onSubmitAction, onDeleteAction, onReplyAction, onEditAction, customNoComment, currentData, advancedInput }: CommentSectionProps) => JSX.Element;
 export {};

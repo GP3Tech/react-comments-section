@@ -1,4 +1,4 @@
-import React from 'react';
+/// <reference types="react" />
 import 'react-draft-wysiwyg/dist/react-draft-wysiwyg.css';
 interface AdvancedInputProps {
     formStyle?: object;
@@ -12,5 +12,5 @@ interface AdvancedInputProps {
     customImg?: string;
     text: string;
 }
-declare const AdvancedInput: ({ formStyle, handleSubmit, submitBtnStyle, cancelBtnStyle, mode, comId, imgDiv, imgStyle, customImg, text }: AdvancedInputProps) => React.JSX.Element;
+declare const AdvancedInput: ({ formStyle, handleSubmit, submitBtnStyle, cancelBtnStyle, mode, comId, imgDiv, imgStyle, customImg, text }: AdvancedInputProps) => JSX.Element;
 export default AdvancedInput;

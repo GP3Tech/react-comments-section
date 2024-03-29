@@ -2,10 +2,11 @@ import './InputField.scss'
 import { useContext, useEffect, useState } from 'react'
 import { GlobalContext } from '../../context/Provider'
 import React from 'react'
-const { v4: uuidv4 } = require('uuid')
+import uuid from 'uuid';
 import RegularInput from './RegularInput'
 import AdvancedInput from './AdvancedInput'
 
+const uuidv4 = uuid.v4
 interface InputFieldProps {
   formStyle?: object
   comId?: string

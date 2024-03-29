@@ -1,6 +1,6 @@
+/// <reference types="react" />
 import './CommentStructure.scss';
 import '@szhsin/react-menu/dist/core.css';
-import React from 'react';
 interface CommentStructureProps {
     info: {
         userId: string;
@@ -19,5 +19,5 @@ interface CommentStructureProps {
         signupLink: string;
     };
 }
-declare const CommentStructure: ({ info, editMode, parentId, replyMode }: CommentStructureProps) => React.JSX.Element;
+declare const CommentStructure: ({ info, editMode, parentId, replyMode }: CommentStructureProps) => JSX.Element;
 export default CommentStructure;

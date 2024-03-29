@@ -1,5 +1,5 @@
+/// <reference types="react" />
 import './InputField.scss';
-import React from 'react';
 interface InputFieldProps {
     formStyle?: object;
     comId?: string;
@@ -13,5 +13,5 @@ interface InputFieldProps {
     imgStyle?: object;
     imgDiv?: object;
 }
-declare const InputField: ({ formStyle, comId, fillerText, parentId, mode, customImg, inputStyle, cancelBtnStyle, submitBtnStyle, imgStyle, imgDiv }: InputFieldProps) => React.JSX.Element;
+declare const InputField: ({ formStyle, comId, fillerText, parentId, mode, customImg, inputStyle, cancelBtnStyle, submitBtnStyle, imgStyle, imgDiv }: InputFieldProps) => JSX.Element;
 export default InputField;

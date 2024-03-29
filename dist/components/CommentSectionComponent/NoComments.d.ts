@@ -1,3 +1,3 @@
-import React from 'react';
-declare const NoComments: () => React.JSX.Element;
+/// <reference types="react" />
+declare const NoComments: () => JSX.Element;
 export default NoComments;

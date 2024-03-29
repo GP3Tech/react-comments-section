@@ -1,4 +1,4 @@
-import React from 'react';
+/// <reference types="react" />
 import './InputField.scss';
 interface EmojiInputProps {
     text: string;
@@ -6,5 +6,5 @@ interface EmojiInputProps {
     mode?: string;
     inputStyle?: object;
 }
-declare const EmojiInput: ({ text, setText, mode, inputStyle }: EmojiInputProps) => React.JSX.Element;
+declare const EmojiInput: ({ text, setText, mode, inputStyle }: EmojiInputProps) => JSX.Element;
 export default EmojiInput;
