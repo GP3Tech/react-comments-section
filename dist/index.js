@@ -18277,7 +18277,7 @@ var CommentSection = function CommentSection(_ref) {
     }
   }), globalStore.data.length > 0 ? globalStore.data.map(function (i) {
     return React__default.createElement("div", {
-      "data-comId": i.comId,
+      "data-comid": i.comId,
       key: i.comId
     }, React__default.createElement(CommentStructure, {
       info: i,

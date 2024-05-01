@@ -70,7 +70,7 @@ const CommentSection = ({
             replies: Array<any> | undefined
           }) => {
             return (
-              <div data-comId={i.comId} key={i.comId}>
+              <div data-comid={i.comId} key={i.comId}>
                 <CommentStructure
                   info={i}
                   editMode={
